@@ -1,3 +1,4 @@
+/* header */
 body {
     text-align: center;
     margin: 0;
@@ -6,18 +7,12 @@ body {
 .banner {
     margin: 0;
     background-image: url(../images/banner/banner3.png);
-    /* position: absolute; */
-
     background-repeat: no-repeat;
     background-size: cover;
     height: 1000px;
     width: 100%;
     text-align: right;
-    /* top: 0px; */
-    /* left: 0px;
-margin: 0px; */
     margin-bottom: 20px;
-    /* background-position: bottom right, left; */
 }
 
 .nav {
@@ -45,7 +40,7 @@ margin: 0px; */
     color: #005FAC;
     border: 0;
 }
-
+/* <!-- My failures --> */
 .flex {
     display: flex;
     gap: 50px;
@@ -78,7 +73,25 @@ margin: 0px; */
 span {
     color: rgb(4, 159, 248);
 }
+/* <!-- what i learn --> */
+.kgf {
+    margin: 75px;
+    display: flex;
+    gap: 75px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+}
 
+.line {
+    margin: 10px;
+    text-align: left;
+
+}
+
+.koko {
+    list-style: none;
+}
 .plan {
     font-size: 50px;
     margin-bottom: 90px;
@@ -111,16 +124,13 @@ span {
     color: #005FAC;
     border: 0;
 }
-
+/* footer part */
 .foot {
     display: flex;
     margin-left: 250px;
 }
 
 .foot {
-    /* background-color: black; */
-    /* width: 100%; */
-    /* align-items: center; */
     gap: 55px;
     margin: 0 0px;
     text-align: left;
@@ -162,23 +172,3 @@ input {
     background-color: white;
     border: 2;
 }
-.kgf{
-    margin: 75px;
-    display: flex;
-    gap: 75px;
-    align-items: center;
-    font-size: 25px;
-    font-weight: 400;
-}
-.line{
- margin: 10px;
-    text-align: left;
-   
-}
-.koko{
-/* text-align: left; */
-list-style: none;
-}
-/* .img{
-height: 250px;
-} */
