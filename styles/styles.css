@@ -88,7 +88,7 @@ span {
 .smoke {
     display: flex;
     gap: 200px;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-bottom: 90px;
 }
 
@@ -96,7 +96,7 @@ span {
     background-image: url(../images/gradient1.png), url(../images/watch.png);
     height: 150px;
     background-repeat: no-repeat;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-bottom: 30px;
     text-align: left;
     font-size: 25px;
