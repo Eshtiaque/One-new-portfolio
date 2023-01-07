@@ -1,9 +1,11 @@
 body {
     text-align: center;
+    margin: 0;
     
 }
 
 .banner {
+    margin: 0;
     background-image: url(../images/banner/banner3.png);
     /* position: absolute; */
 
@@ -92,7 +94,7 @@ span {
 }
 
 .mindset {
-    background-image: url('/images/gradient1.png'), url(/images/watch.png);
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
     height: 150px;
     background-repeat: no-repeat;
     margin-left: 620px;
